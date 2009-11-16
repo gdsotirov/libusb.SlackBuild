@@ -1,0 +1,11 @@
+libusb: libusb (A USB library)
+libusb:
+libusb: This is libusb, a library which allows userspace application access
+libusb: to various USB devices (e.g. scanners, printers, etc).
+libusb:
+libusb: WARNING: libusb 1.0 replaces libusb 0.1 - you should not have both!
+libusb:          Install libusb-compat-0.1 instead.
+libusb:
+libusb:
+libusb:
+libusb: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
