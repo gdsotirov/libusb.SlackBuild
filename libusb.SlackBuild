@@ -2,12 +2,13 @@
 #
 # SlackBuild for libusb
 # Written by Georgi D. Sotirov <gdsotirov@dir.bg>
+# Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
 
 . ../slack-package.conf
 
 NAME=libusb
-VERSION=1.0.6
+VERSION=1.0.8
 BUILD=1
 ARCH=${ARCH:-i486}
 
@@ -34,7 +35,7 @@ mkdir -p $PKG
 
 # Extract source
 cd $TMP
-tar -jxvf $CWD/$NAME-$VERSION.tar.bz2
+tar -xvf $CWD/$NAME-$VERSION.tar.bz2
 cd $SRC
 fix_source
 
